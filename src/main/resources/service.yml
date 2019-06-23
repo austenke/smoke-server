@@ -23,7 +23,7 @@ database:
   password: 3856bfb7
 
   # the JDBC URL
-  url: jdbc:mysql://bdb6acf58dda78:3856bfb7@us-cdbr-iron-east-02.cleardb.net/heroku_fbfade3f6ebe354?reconnect=true
+  url: jdbc:mysql://b9ed242ccdb5ec:6011f144@us-cdbr-iron-east-02.cleardb.net/heroku_934a6aab6f33e47?reconnect=true
 
 passwordManagement:
   bcryptCost: 10
