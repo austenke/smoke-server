@@ -1,0 +1,31 @@
+server:
+  rootPath: /api
+  port: 5000
+  applicationConnectors:
+      - type: http
+        port: 8080
+
+jwt:
+  jwtSecret: super secret yeaaasdasd
+  jwtExpirySeconds: 259200
+  cookieName: jwtToken
+
+# Database settings.
+database:
+
+  # the name of your JDBC driver
+  driverClass: com.mysql.cj.jdbc.Driver
+
+  # the username
+  user: bdb6acf58dda78
+
+  # the newPassword
+  password: 3856bfb7
+
+  # the JDBC URL
+  url: jdbc:mysql://bdb6acf58dda78:3856bfb7@us-cdbr-iron-east-02.cleardb.net/heroku_fbfade3f6ebe354?reconnect=true
+
+passwordManagement:
+  bcryptCost: 10
+
+indexPagePath: "assets/index.html"
